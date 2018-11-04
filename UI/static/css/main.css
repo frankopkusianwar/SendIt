@@ -33,6 +33,20 @@
 .content form a{
     text-decoration: none;
 }
+.content form h2{
+    text-align: center;
+    color: rgb(19, 19, 99)
+}
+.or{
+    text-align: center;
+    color: rgb(19, 19, 99)
+}
+.or a{
+    margin: 0.3em;
+    text-decoration: none;
+
+}
+
 .logpar{
     color: rgb(19, 19, 99); 
 }

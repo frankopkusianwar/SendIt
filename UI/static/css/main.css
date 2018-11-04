@@ -87,6 +87,9 @@
 .parag p{
   color:  rgb(19, 19, 99);
 }
+.logpar{
+    color: rgb(19, 19, 99); 
+}
 .footer{
     background-color: black;
     color: white;

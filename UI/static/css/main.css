@@ -6,6 +6,12 @@
 .header{
     color: rgb(19, 19, 99);
 }
+.header a{
+    float: right;
+    font-size: 0.5em;
+    margin: 0.5em;
+    text-decoration: none;
+}
 .content{
     
     padding: 4%;
@@ -26,15 +32,89 @@
     margin: 1em;
     width: 90%;
     padding: 1em;
-    
-
-    
+     
 }
 .content form a{
     text-decoration: none;
 }
+.content form h2{
+    text-align: center;
+    color: rgb(19, 19, 99)
+}
+.pages-content{
+    border: 2px solid rgb(19, 19, 99);
+    border-radius: 2em;
+    padding: 10%;
+    width: 50%;
+}
+.pages-content form input{
+    margin: 0.5em;
+} 
+.top-input{
+    background-color: rgb(19, 19, 99);
+    padding: 4%;
+    color:white;
+}
+.bottom-input{
+    padding-left: 10%;
+    margin: 2%;
+    color: rgb(19, 19, 99);
+}
+.button{
+    background-color: rgb(19, 19, 99);
+    color: white; 
+    padding: 1em;
+    float: right;
+}
+.bottom-input input{
+    width: 10%;
+}
+.or{
+    text-align: center;
+    color: rgb(19, 19, 99)
+}
+.or a{
+    margin: 0.3em;
+    text-decoration: none;
+
+}
+
 .logpar{
     color: rgb(19, 19, 99); 
+}
+.parag p{
+  color:  rgb(19, 19, 99);
+}
+.logpar{
+    color: rgb(19, 19, 99); 
+}
+.list{
+    border: 1px solid rgb(19, 19, 99);
+    margin: 1em;
+    background-color: rgb(19, 19, 99);
+    color: white; 
+    text-align: center;
+    padding: 0.3em;
+    width: 50%;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.view-parcel img{
+    width: 40%;
+    height: auto;
+    float: right;
+}
+.view-parcel a{
+    text-decoration: none;
+}
+.view-parcel a input{
+    border: 1px solid rgb(19, 19, 99);
+    border-radius: 2em;
+    color: rgb(19, 19, 99);; 
+    padding: 0.3em;
+    width: 50%;
 }
 .footer{
     background-color: black;

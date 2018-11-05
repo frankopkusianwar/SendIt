@@ -32,9 +32,7 @@
     margin: 1em;
     width: 90%;
     padding: 1em;
-    
-
-    
+     
 }
 .content form a{
     text-decoration: none;
@@ -89,6 +87,34 @@
 }
 .logpar{
     color: rgb(19, 19, 99); 
+}
+.list{
+    border: 1px solid rgb(19, 19, 99);
+    margin: 1em;
+    background-color: rgb(19, 19, 99);
+    color: white; 
+    text-align: center;
+    padding: 0.3em;
+    width: 50%;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.view-parcel img{
+    width: 40%;
+    height: auto;
+    float: right;
+}
+.view-parcel a{
+    text-decoration: none;
+}
+.view-parcel a input{
+    border: 1px solid rgb(19, 19, 99);
+    border-radius: 2em;
+    color: rgb(19, 19, 99);; 
+    padding: 0.3em;
+    width: 50%;
 }
 .footer{
     background-color: black;

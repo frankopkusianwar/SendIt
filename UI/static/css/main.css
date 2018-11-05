@@ -112,9 +112,35 @@
 .view-parcel a input{
     border: 1px solid rgb(19, 19, 99);
     border-radius: 2em;
-    color: rgb(19, 19, 99);; 
+    color: rgb(19, 19, 99); 
     padding: 0.3em;
     width: 50%;
+}
+.main-det-content{
+    color: rgb(19, 19, 99);
+    text-align: center;
+}
+.detail-content{
+    border: 1px solid rgb(19, 19, 99);
+    border-radius: 2em;
+    padding: 5%;
+}
+.det{
+    font-weight: lighter;
+    margin: 0.5em;
+}
+.cancl{
+    background-color: red;
+    color: white;
+    margin: 1em;
+}
+.locat{
+    color: rgb(19, 19, 99);
+}
+.detail-content input{
+    border: 1px solid rgb(19, 19, 99);
+    border-radius: 2em;
+    padding: 1em;
 }
 .footer{
     background-color: black;

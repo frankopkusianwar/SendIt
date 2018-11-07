@@ -3,7 +3,7 @@
     flex-direction: column;
     
 }
-.header{
+.header{ 
     color: rgb(19, 19, 99);
 }
 .header a{
@@ -14,16 +14,13 @@
 }
 .content{
     
-    padding: 4%;
+    padding: 2%;
     
 }
 .content form{
-    float: left;
     width: 50%;
     border: 2px solid rgb(19, 19, 99);
     border-radius: 2em;
-    z-index: +1;
-    position: relative;
 }
 .content form input{
     display: block;
@@ -41,11 +38,23 @@
     text-align: center;
     color: rgb(19, 19, 99)
 }
-.pages-content{
+.right-content{
+    float: right;
+    width: 40%;
+}
+.right-content h2{
+    color: red;
+}
+.pages-content form{
     border: 2px solid rgb(19, 19, 99);
     border-radius: 2em;
-    padding: 10%;
+    padding: 5%;
+    text-align: center;
     width: 50%;
+    
+}
+.pages-content h3{
+    color: red;
 }
 .pages-content form input{
     margin: 0.5em;
@@ -56,18 +65,25 @@
     color:white;
 }
 .bottom-input{
-    padding-left: 10%;
-    margin: 2%;
+    margin: 1em;
     color: rgb(19, 19, 99);
 }
 .button{
     background-color: rgb(19, 19, 99);
     color: white; 
     padding: 1em;
-    float: right;
 }
 .bottom-input input{
     width: 10%;
+}
+.cre-right{
+    float: right;
+    width: 30%;
+}
+
+.cre-right img{
+    height: 60%;
+    width: 100%;
 }
 .or{
     text-align: center;
@@ -79,14 +95,16 @@
 
 }
 
-.logpar{
-    color: rgb(19, 19, 99); 
+.logpar p{
+    background: rgb(19, 19, 99);
+    color: white;
+    padding: 0.5em; 
 }
 .parag p{
   color:  rgb(19, 19, 99);
 }
-.logpar{
-    color: rgb(19, 19, 99); 
+.parag-create p{
+    color: rgb(19, 19, 99);
 }
 .list{
     border: 1px solid rgb(19, 19, 99);
@@ -95,16 +113,23 @@
     color: white; 
     text-align: center;
     padding: 0.3em;
-    width: 50%;
 }
 .list a{
     text-decoration: none;
     color: white;
 }
-.view-parcel img{
-    width: 40%;
-    height: auto;
-    float: right;
+.prof-list{
+    border: 1px solid rgb(19, 19, 99);
+    margin: 1em;
+    background-color: rgb(19, 19, 99);
+    color: white; 
+    text-align: center;
+    padding: 0.3em;
+    width: 50%;
+}
+.prof-list a{
+    text-decoration: none;
+    color: white;
 }
 .view-parcel a{
     text-decoration: none;
@@ -121,10 +146,11 @@
     text-align: center;
 }
 .detail-content{
-    border: 1px solid rgb(19, 19, 99);
+    border: 2px solid rgb(19, 19, 99);
     border-radius: 2em;
-    padding: 5%;
+    padding: 2%;
 }
+
 .det{
     font-weight: lighter;
     margin: 0.5em;
@@ -142,6 +168,58 @@
     border-radius: 2em;
     padding: 1em;
 }
+.profile-content img{
+    width: 30%;
+    height: 30%;
+}
+.profile-content{
+    border: 2px solid rgb(19, 19, 99);
+    border-radius: 2em;
+    float: right;
+    width: 30%;
+    padding: 3%;
+    text-align: center;
+    color: rgb(19, 19, 99);
+}
+.admin-prof-content img{
+    width: 30%;
+    height: 30%;
+}
+.admin-prof-content{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(19, 19, 99);
+    border-radius: 2em;
+    width: 30%;
+    padding: 8%;
+    text-align: center;
+    color: rgb(19, 19, 99);
+}
+.admin-content{
+    color: rgb(19, 19, 99);
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{
+    border: 2px solid rgb(19, 19, 99);
+    border-collapse: collapse;
+    padding: 1em;
+    color: rgb(19, 19, 99);
+}
+table input{
+    margin: 0.3em;
+    background-color: rgb(19, 19, 99);
+    border-radius: 2em;
+    color: white;
+    padding: 0.5em;
+}
+table a {
+    text-decoration: none;
+    color: rgb(19, 19, 99);
+}
+.text{
+    color: red;
+}
 .footer{
     background-color: black;
     color: white;
@@ -149,3 +227,44 @@
 .footer p{
     padding: 2%;
 }
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    header{
+        font-size: 12px;
+    }
+    .right-content {
+        width: 100%;
+        font-size: 15px;
+    }
+    .content form{
+        width: 100%;
+        border: none;
+    }
+    .cre-right{
+        width: 100%;
+        font-size: 12px;
+    }
+    .pages-content form{
+        font-size: 12px;
+        border: none;
+    }
+    .view-parcel{
+        font-size: 10px;
+        padding-bottom: 10%;
+    }
+    .profile-content{
+        padding-bottom: 1em;
+        width: 100%;
+        border: none;
+    }
+    .prof-list{
+        border: none;
+        width: 100%;
+        background-color: white;
+        color: rgb(19, 19, 99);
+    }
+    .prof-list a{
+        color: rgb(19, 19, 99);
+    }
+}
+

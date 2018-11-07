@@ -1,4 +1,4 @@
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a7d1015a02241dc4e28f/test_coverage)](https://codeclimate.com/github/frankopkusianwar/SendIt/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a7d1015a02241dc4e28f/maintainability)](https://codeclimate.com/github/frankopkusianwar/SendIt/maintainability)
 
 # Send_It
 SendIT is a courier service that helps users deliver parcels to different destinations. SendIT provides courier quotes based on weight categories.

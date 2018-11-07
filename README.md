@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/frankopkusianwar/SendIt/badge.svg)](https://coveralls.io/github/frankopkusianwar/SendIt)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/a7d1015a02241dc4e28f/maintainability)](https://codeclimate.com/github/frankopkusianwar/SendIt/maintainability)
 
 # Send_It

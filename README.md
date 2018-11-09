@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/frankopkusianwar/SendIt.svg?branch=develop)](https://travis-ci.com/frankopkusianwar/SendIt)
+[![Build Status](https://travis-ci.com/frankopkusianwar/SendIt.svg?branch=)](https://travis-ci.com/frankopkusianwar/SendIt)
 
 [![Coverage Status](https://coveralls.io/repos/github/frankopkusianwar/SendIt/badge.svg)](https://coveralls.io/github/frankopkusianwar/SendIt)
 

@@ -2,9 +2,10 @@ import uuid
 
 class User:
 
-    def __init__(self, name='', email='', password='', user_type='user', user_id = str(uuid.uuid4())):
-        self.name = name
-        self.user_type = user_type
+    name=''
+    user_type='user'
+
+    def __init__(self, email='', password='', user_id = str(uuid.uuid4())):
         self.email = email
         self.password = password
         self.user_id = user_id

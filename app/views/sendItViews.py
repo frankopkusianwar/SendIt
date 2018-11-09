@@ -40,5 +40,8 @@ def create_parcel_delivery_order():
     ParcelList.append(parceldata)
     return Response("parcel being sent to %s created successfully" % parcel.destination, status=201)
 
+@bp.route("parcels", methods=["GET"])
+def get_all_parcel_delivery_orders():
+    return jsonify(ParcelList)
 
     
